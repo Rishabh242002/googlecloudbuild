@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.get("/elvishbhai", (req,res)=>{
-  res.json({'rishabh':'jnrjnjnk'}) ; 
+  res.send('Elvish Bhai!')
 })
 
 
